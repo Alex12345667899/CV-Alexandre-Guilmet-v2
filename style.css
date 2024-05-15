@@ -1,0 +1,77 @@
+/* Reset de la marge et du padding pour une mise en page cohérente */
+body, h1, h2, h3, h4, h5, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style pour les en-têtes */
+h1, h2, h3, h4, h5 {
+    margin-bottom: 10px;
+}
+
+/* Style pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour les listes */
+ul {
+    list-style-type: none;
+}
+
+/* Style pour les sections de la page */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Style spécifique pour la section de contact */
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style spécifique pour la section d'éducation */
+.education, .professional-experience {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style spécifique pour chaque expérience professionnelle */
+.professional-experience > div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
